@@ -1,0 +1,3 @@
+# PHP Reference and Object Reassignment Bug
+
+This repository demonstrates a common, yet subtle bug in PHP related to references and object reassignment. When an object is passed by reference to a function and then reassigned within the function, the original object is not modified. This often leads to unexpected behavior. The `bug.php` file illustrates this issue, and `bugSolution.php` offers a corrected version.  See the detailed description in the `bugContent` section of the JSON file for a thorough explanation.
